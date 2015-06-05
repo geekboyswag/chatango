@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "module": "commonjs",
     "removeComments": true,
     "declarationFiles": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "out": "Chatango.js"
   }
 }
