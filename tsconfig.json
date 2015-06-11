@@ -5,6 +5,9 @@
     "removeComments": true,
     "declarationFiles": true,
     "sourceMap": true,
-    "out": "Chatango.js"
-  }
+    "out": "./dist/Chatango.js"
+  },
+  "files": [
+    "./src/index.ts"
+  ]
 }

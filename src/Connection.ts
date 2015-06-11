@@ -1,4 +1,5 @@
 /// <reference path="../typings/tsd.d.ts" />
+/// <reference path="./index.ts" />
 
 import events = require('events');
 import net = require('net');

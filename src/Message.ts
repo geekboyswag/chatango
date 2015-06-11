@@ -1,5 +1,5 @@
 /// <reference path="../typings/tsd.d.ts" />
-/// <reference path="User" />
+/// <reference path="./index.ts" />
 
 module Chatango {
 

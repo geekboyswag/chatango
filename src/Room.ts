@@ -1,7 +1,5 @@
 /// <reference path="../typings/tsd.d.ts" />
-/// <reference path="User" />
-/// <reference path="Connection" />
-/// <reference path="Message" />
+/// <reference path="./index.ts" />
 
 import events = require('events');
 import winston = require('winston');

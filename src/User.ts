@@ -1,5 +1,5 @@
 /// <reference path="../typings/tsd.d.ts" />
-/// <reference path="Message" />
+/// <reference path="./index.ts" />
 
 import request = require('request');
 import winston = require('winston');

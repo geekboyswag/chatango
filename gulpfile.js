@@ -16,12 +16,13 @@ gulp.task('build', ['clean'], function () {
   var tsProject = ts.createProject('tsconfig.json', {
     'typescript': require('typescript'),
   });
-  var pipe = gulp.src('./src/*.ts')
-    .pipe(ts(tsProject));
-  return merge([
-    pipe.dts.pipe(gulp.dest('./typings')),
-    pipe.js.pipe(gulp.dest('./dist')),
-  ]);
+  return gulp.src('./src/*.ts')
+    .pipe(ts(tsProject))
+    // .pipe(gulp.dest('./dist'));
+  // return merge([
+  //   pipe.dts.pipe(gulp.dest('./typings')),
+  //   pipe.js.pipe(gulp.dest('./dist')),
+  // ]);
 });
 
 gulp.task('test', function (done) {
